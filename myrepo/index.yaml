@@ -1,0 +1,11 @@
+apiVersion: v1
+entries:
+  myapp:
+  - apiVersion: v2
+    created: "2024-03-14T11:00:14.990009+09:00"
+    digest: 5ff70e11cd49095877600afdc4916dfded073b3a120f148658f3feaeaf2a27fc
+    name: myapp
+    urls:
+    - http://my-helm-repo.com/myapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-03-14T11:00:14.989144+09:00"

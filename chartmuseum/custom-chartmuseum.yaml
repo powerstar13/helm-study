@@ -1,0 +1,10 @@
+env:
+  open:
+    STORAGE: local
+    DISABLE_API: false
+persistence:
+  enabled: true
+  accessMode: ReadWriteOnce
+  size: 8Gi
+service:
+  type: LoadBalancer
